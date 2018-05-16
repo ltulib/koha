@@ -1,6 +1,9 @@
 $(document).ready(function() {
     // Creates a shortcut to default page in KOHA (F4 key)
     // F1 to F12 is among 112 and 123.
+    
+    // Working with Koha 17.05
+    // Magnus Pettersson mail: magnus.pettersson@ltu.se
 
     $("body").keydown(function(event) {
         var id = $('body').attr('id');

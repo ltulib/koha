@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    // Adds adds a shortcut to add hold search, with a popup. 
+
+    // Working with Koha 17.05
+    // Magnus Pettersson mail: magnus.pettersson@ltu.se
+
     // Asks for search string (username, social security number etc.)
     // it's hook on a register class click.
     $(document.body).on('click', '.register', function(event) {
