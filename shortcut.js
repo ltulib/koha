@@ -39,7 +39,7 @@ $(document).ready(function() {
                     $('#ui-id-1').trigger('click');
                     $("#findborrower").focus();
                 }
-                else if (id == "pat") {
+                else if (id == "pat_") {
                     $('#ui-id-2').trigger('click');
                 }
                 else {
