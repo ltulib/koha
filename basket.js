@@ -1,5 +1,6 @@
 $(document).ready(function() {
     // Hide all closed baskets and add buttons to make them visibe/ hidden again.
+    
     // Working with Koha 17.05
     // Magnus Pettersson mail: magnus.pettersson@ltu.se
 
