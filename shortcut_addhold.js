@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Adds adds a shortcut to add hold search, with a popup. 
+    // Adds a shortcut to add hold search, with a popup. 
 
     // Working with Koha 17.05
     // Magnus Pettersson mail: magnus.pettersson@ltu.se
