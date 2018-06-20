@@ -1,5 +1,6 @@
 # Koha
 
+All scripts working with Koha 17.11
 
 ### Acquisitions_add.js
 Modify "new order" page, and adds a drop-down list. The drop-down has been pre-configured with settings for different books and libraries which is the same everytime you add a certain book. On select, forms are updated automatically. 
@@ -14,10 +15,19 @@ Adds two buttons on vendor page for hiding/showing closed baskets in baskets tab
 
 Changes on pages like this: **/cgi-bin/koha/acqui/booksellers.pl?supplier=2&booksellerid=2**
 
+
+### Check_3d_printer.js
+This scripts add information if you are allowed to use 3d-printer to patron check out page. 
+
+
+
+
+
+
 ### Ebba.js
 Adds a link based on item type (Fjärrlån) at peatron checkouts list to Ebba (Interlibrary loan module) 
 
-Changes on all patreon pages, checkout table.
+Changes on all patron pages, checkout table.
 
 
 ### Focus_modification.js
@@ -37,10 +47,24 @@ F8 - Change focus to renew tab or to renew input.
 Effects all pages.
 
 
-### Remove_suspend.js
-Three rows script for removing td(8) and th(8) from the table at holdings tab at patreon page. We don't want or need suspend button.
+### Patron:_add.js
+This script changes the look on creating new patron page. 
 
-Change on holds tab on every patreon page.
+- Tree forms are hidden (Library set-up, Additional attributes, and identifiers, Patron messaging preferences), we use this form very seldom. 
+
+- OPAC/Staff login is moved to after Library management.
+
+- We want Card number and Username to be same string. The information at card number is copied to Username. 
+
+- Information in city drop-down list is removed.
+
+Changes on this page: **/cgi-bin/koha/members/memberentry.pl?op=add&categorycode=N**
+
+
+### Remove_suspend.js
+Three rows script for removing td(8) and th(8) from the table at holdings tab at patron page. We don't want or need suspend button.
+
+Change on holds tab on every patron page.
 
 
 ### Shortcut_addhold.js
