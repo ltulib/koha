@@ -4,7 +4,7 @@
 ### Acquisitions_add.js
 Modify "new order" page, and adds a drop-down list. The drop-down has been pre-configured with settings for different books and libraries which is the same everytime you add a certain book. On select, forms are updated automatically. 
 
-![Image](/Users/magpet/Documents/medley/resources/Syq0c_Dbm_SkQmetPbQ.png)
+![Alt text](images/add_hold.png=raw=True "Add hold")
 
 Changes on pages like this: **/cgi-bin/koha/acqui/neworderempty.pl?booksellerid=2&basketno=2673&biblionumber=218806**
 
