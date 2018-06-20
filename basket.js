@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Hide all closed baskets and add buttons to make them visibe/ hidden again.
     
-    // Working with Koha 17.05
+    // Working with Koha 17.11
     // Magnus Pettersson mail: magnus.pettersson@ltu.se
 
     if ($('#acq_booksellers').length) {
