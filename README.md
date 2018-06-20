@@ -4,7 +4,7 @@
 ### Acquisitions_add.js
 Modify "new order" page, and adds a drop-down list. The drop-down has been pre-configured with settings for different books and libraries which is the same everytime you add a certain book. On select, forms are updated automatically. 
 
-![Alt text](img/add_hold.png=raw=True "Add hold")
+![Alt text](img/new_book.png?raw=True "New book")
 
 Changes on pages like this: **/cgi-bin/koha/acqui/neworderempty.pl?booksellerid=2&basketno=2673&biblionumber=218806**
 
@@ -33,6 +33,6 @@ F8 - Change focus to renew tab or to renew input.
 ### Shortcut_addhold.js
 Adds a search pop-up and shortcut to "Place a hold" search page from an acquisition vendor basket.  See image below. 
 
-![Image](/Users/magpet/Documents/medley/resources/Syq0c_Dbm_BJpFTuvW7.png)
+![Alt text](img/add_hold.png?raw=True "add hold")
 
 Changes on pages like this: **/cgi-bin/koha/acqui/basket.pl?basketno=2616**
