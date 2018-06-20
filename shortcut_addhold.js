@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Adds a shortcut to add hold search, with a popup prompt.
 
-    // Working with Koha 17.05
+    // Working with Koha 17.11
     // Magnus Pettersson mail: magnus.pettersson@ltu.se
 
     // it's hooks on a register class click.
