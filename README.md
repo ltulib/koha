@@ -4,7 +4,7 @@
 ### Acquisitions_add.js
 Modify "new order" page, and adds a drop-down list. The drop-down has been pre-configured with settings for different books and libraries which is the same everytime you add a certain book. On select, forms are updated automatically. 
 
-![Alt text](img/new_book.png?raw=True "New book")
+![Image](https://raw.githubusercontent.com/ltulib/koha/master/img/new_book.png)
 
 Changes on pages like this: **/cgi-bin/koha/acqui/neworderempty.pl?booksellerid=2&basketno=2673&biblionumber=218806**
 
@@ -13,6 +13,11 @@ Changes on pages like this: **/cgi-bin/koha/acqui/neworderempty.pl?booksellerid=
 Adds two buttons on vendor page for hiding/showing closed baskets in baskets table list.  Koha got this function built in, but it's really slow and not working properly. This script fixes the speed problem and preserving the functionality.
 
 Changes on pages like this: **/cgi-bin/koha/acqui/booksellers.pl?supplier=2&booksellerid=2**
+
+### Ebba.js
+Adds a link based on item type (Fjärrlån) at peatron checkouts list to Ebba (Interlibrary loan module) 
+
+Changes on all patreon pages, checkout table.
 
 
 ### Focus_modification.js
@@ -29,10 +34,18 @@ F4 - Back to the main page.
 F7 - Change focus to return tab or to return input.
 F8 - Change focus to renew tab or to renew input.
 
+Effects all pages.
+
+
+### Remove_suspend.js
+Three rows script for removing td(8) and th(8) from the table at holdings tab at patreon page. We don't want or need suspend button.
+
+Change on holds tab on every patreon page.
+
 
 ### Shortcut_addhold.js
 Adds a search pop-up and shortcut to "Place a hold" search page from an acquisition vendor basket.  See image below. 
 
-![Alt text](img/add_hold.png?raw=True "add hold")
+![Image](https://raw.githubusercontent.com/ltulib/koha/master/img/add_hold.png)
 
 Changes on pages like this: **/cgi-bin/koha/acqui/basket.pl?basketno=2616**
