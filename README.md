@@ -16,14 +16,6 @@ Adds two buttons on vendor page for hiding/showing closed baskets in baskets tab
 Changes on pages like this: **/cgi-bin/koha/acqui/booksellers.pl?supplier=2&booksellerid=2**
 
 
-### Check_3d_printer.js
-This scripts add information if you are allowed to use 3d-printer to patron check out page. 
-
-
-
-
-
-
 ### Ebba.js
 Adds a link based on item type (Fjärrlån) at peatron checkouts list to Ebba (Interlibrary loan module) 
 
@@ -47,7 +39,7 @@ F8 - Change focus to renew tab or to renew input.
 Effects all pages.
 
 
-### Patron:_add.js
+### Patron_add.js
 This script changes the look on creating new patron page. 
 
 - Tree forms are hidden (Library set-up, Additional attributes, and identifiers, Patron messaging preferences), we use this form very seldom. 
