@@ -1,5 +1,7 @@
 $(document).ready(function() {
-    // Patron edit/ create page - Fungerar
+    // Hide stuff we don't need then we creates a new patreon.
+    // Working with Koha 18.05.06.000
+
     if ($("#pat_memberentrygen").length) {
         // This script copy input value from #cardnumber to #userid input
         // Copy #cardnumber value to #userid on keyUp
@@ -59,5 +61,5 @@ $(document).ready(function() {
 
         // No autoselect of city
         $("#select_city").val("");
-    }
+    } // End patreon creation page.
 });

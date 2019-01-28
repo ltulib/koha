@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    // Adds Ebba link to patrons remote borrowed books
+    // Working with Koha 18.05.06.000
+
     $('#issues-table').on('init.dt', function() {
         $('#issues-table tr').each(function() {
             if ($(this).find("td:eq(2)").html() == "Fjärrlån") {
@@ -11,5 +14,5 @@ $(document).ready(function() {
                 $(this).find("td:eq(2)").html("<a href='https://ils.lib.ltu.se/ebba/koha_ebba_redirect.php?biblionumber=" + biblionumber + "' target=_blank >Fjärrlån</a>")
             }
         })
-    });
+    }); // end ebba
 });
