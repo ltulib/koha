@@ -10,15 +10,10 @@ Modify "new order" page, and adds a drop-down list. The drop-down has been pre-c
 Changes on pages like this: **/cgi-bin/koha/acqui/neworderempty.pl?booksellerid=2&basketno=2673&biblionumber=218806**
 
 
-### Basket.js
-Adds two buttons on vendor page for hiding/showing closed baskets in baskets table list.  Koha got this function built in, but it's really slow and not working properly. This script fixes the speed problem and preserving the functionality.
-
-Changes on pages like this: **/cgi-bin/koha/acqui/booksellers.pl?supplier=2&booksellerid=2**
-
-
 ### Check_3d_printer.js
 Adds a message if patreon can use the 3d printer or not on this page
-**https://ils.lib.ltu.se/cgi-bin/koha/members/moremember.pl?borrowernumber=**
+
+**/cgi-bin/koha/members/moremember.pl?borrowernumber=**
 
 
 ### Check_for_debt.js
@@ -28,6 +23,7 @@ Adds a check if patreon got a debt or not, then a librarian are renewing a book.
 ### Check_out_button.js
 Disable 2 buttons in Details page. Before Koha 18 this button renew books, but in this version Koha return books.
 
+Changes on pages like this: **/cgi-bin/koha/members/moremember.pl?borrowernumber=**
 
 ### Ebba.js
 Adds a link based on item type (Fjärrlån) at peatron checkouts list to Ebba (Interlibrary loan module)
@@ -43,7 +39,8 @@ Changes on this page: **/cgi-bin/koha/acqui/acqui-home.pl**
 
 ### iframe_update_width.js
 All iframes on Notices page got wrong width, this script just set the width to 100%.
-**https://ils.lib.ltu.se/cgi-bin/koha/members/notices.pl?borrowernumber=**
+
+**/cgi-bin/koha/members/notices.pl?borrowernumber=**
 
 
 ### Keyboard_shortcuts.js
